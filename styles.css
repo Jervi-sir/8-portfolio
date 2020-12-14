@@ -245,6 +245,18 @@ header .line span {
 	width: 100%;
 }
 
+.hobbies h1 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #4F4F4F;
+
+	margin-bottom: 1em;
+}
+
 .hobbies .row .image img {
 	width: 100%;
 	border-radius: .7em;
@@ -444,10 +456,18 @@ header .line span {
 
 	color: #FFFFFF;
 
+	text-decoration: none;
+
 	padding: .5em 1.2em;
 	margin-right: .5em;
 }
 
+.projects .web-list .details .buttons .demo:hover {
+	cursor: pointer;
+	background: #5c94e16b;
+	color: #5C94E1;
+	border: 1px solid #5C94E1;
+}
 
 .projects .web-list .details .buttons .code {
 	font-family: Montserrat;
@@ -456,6 +476,7 @@ header .line span {
 	font-size: 18px;
 	line-height: 22px;
 
+	text-decoration: none;
 	background: transparent;
 	border-radius: 10px;
 	border: 1px solid #5C94E1;
@@ -468,7 +489,12 @@ header .line span {
 }
 
 
-
+.projects .web-list .details .buttons .code:hover {
+	cursor: pointer;
+	background: #5c94e16b;
+	color: white;
+	border: 1px solid #5C94E1;
+}
 
 
 
